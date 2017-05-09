@@ -24,7 +24,8 @@
         "neos/setup": "~4.0",
         "flowpack/neos-frontendlogin": "~3.0",
         "neos/redirecthandler-neosadapter": "~2.0",
-        "neos/redirecthandler-databasestorage": "~2.0"
+        "neos/redirecthandler-databasestorage": "~2.0",
+        "imagine/imagine": "~0.6.0"
     },
     "require-dev": {
         "neos/buildessentials": "~4.1",

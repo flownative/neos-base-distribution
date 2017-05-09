@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cd29f53a6b77e1b4e7af60405bbb4db",
-    "content-hash": "e3c5db7a26b0e0c59db9a3106ffc1ac5",
+    "hash": "c840d2321771f14536ebd85d45a3ba73",
+    "content-hash": "44bf7cafce629a98f3ae2b463be92fc8",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -906,24 +906,23 @@
         },
         {
             "name": "imagine/imagine",
-            "version": "v0.7.0",
+            "version": "v0.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avalanche123/Imagine.git",
-                "reference": "ae2ff0c0118350ed4964900404cd94147893dac1"
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/ae2ff0c0118350ed4964900404cd94147893dac1",
-                "reference": "ae2ff0c0118350ed4964900404cd94147893dac1",
+                "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+                "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2",
-                "symfony/phpunit-bridge": "^3.2"
+                "php": ">=5.3.2"
             },
             "require-dev": {
-                "sami/sami": "^3.3"
+                "sami/sami": "dev-master"
             },
             "suggest": {
                 "ext-gd": "to use the GD implementation",
@@ -960,7 +959,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2017-05-02 12:01:12"
+            "time": "2015-09-19 16:54:05"
         },
         {
             "name": "neos/cache",
@@ -1692,33 +1691,84 @@
         },
         {
             "name": "neos/imagine",
-            "version": "1.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/imagine.git",
-                "reference": "bc8ef6353f1be1f320bf3cbc83343667e7740b8d"
+                "reference": "7cac3fb306345c64e778dc9d3f973a53e7fff96d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/imagine/zipball/bc8ef6353f1be1f320bf3cbc83343667e7740b8d",
-                "reference": "bc8ef6353f1be1f320bf3cbc83343667e7740b8d",
+                "url": "https://api.github.com/repos/neos/imagine/zipball/7cac3fb306345c64e778dc9d3f973a53e7fff96d",
+                "reference": "7cac3fb306345c64e778dc9d3f973a53e7fff96d",
                 "shasum": ""
             },
             "require": {
-                "imagine/imagine": ">=0.5",
-                "typo3/flow": "*"
+                "imagine/imagine": "0.6.*",
+                "neos/flow": "~4.0 || dev-master"
             },
-            "type": "typo3-flow-package",
+            "replace": {
+                "typo3/imagine": "self.version"
+            },
+            "type": "neos-package",
+            "extra": {
+                "applied-flow-migrations": [
+                    "TYPO3.Fluid-201205031303",
+                    "TYPO3.FLOW3-201205292145",
+                    "TYPO3.FLOW3-201206271128",
+                    "TYPO3.Flow-201211151101",
+                    "TYPO3.Flow-201212051340",
+                    "TYPO3.Neos.NodeTypes-130516220640",
+                    "TYPO3.TypoScript-130516234520",
+                    "TYPO3.TypoScript-130516235550",
+                    "TYPO3.TYPO3CR-130523180140",
+                    "TYPO3.Neos.NodeTypes-201309111655",
+                    "TYPO3.Neos-201310021548",
+                    "TYPO3.Flow-201310031523",
+                    "TYPO3.Flow-201405111147",
+                    "TYPO3.Neos-201409071922",
+                    "TYPO3.TYPO3CR-140911160326",
+                    "TYPO3.Neos-201410010000",
+                    "TYPO3.TYPO3CR-141101082142",
+                    "TYPO3.Neos-20141113115300",
+                    "TYPO3.Fluid-20141113120800",
+                    "TYPO3.Flow-20141113121400",
+                    "TYPO3.Fluid-20141121091700",
+                    "TYPO3.Neos-20141218134700",
+                    "TYPO3.Fluid-20150214130800",
+                    "TYPO3.Neos-201407061038",
+                    "TYPO3.FLOW3-201201261636",
+                    "TYPO3.Flow-201209251426",
+                    "TYPO3.FLOW3-201209201112",
+                    "TYPO3.Neos-20150303231600",
+                    "TYPO3.TYPO3CR-20150510103823",
+                    "TYPO3.Flow-20151113161300",
+                    "TYPO3.Form-20160601101500",
+                    "TYPO3.Flow-20161115140400",
+                    "TYPO3.Flow-20161115140430",
+                    "Neos.FluidAdaptor-20141113120800",
+                    "Neos.Flow-20141113121400",
+                    "Neos.FluidAdaptor-20141121091700",
+                    "Neos.Flow-20151113161300",
+                    "Neos.Flow-20161115140400",
+                    "Neos.Flow-20161115140430",
+                    "Neos.Flow-20161124204700",
+                    "Neos.Form-20160601101500",
+                    "Neos.Flow-20161124204701",
+                    "Neos.Twitter.Bootstrap-20161124204912",
+                    "Neos.Form-20161124205254"
+                ]
+            },
             "autoload": {
-                "psr-0": {
-                    "TYPO3\\Imagine": "Classes"
+                "psr-4": {
+                    "Neos\\Imagine\\": "Classes"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "MIT"
             ],
-            "time": "2013-10-12 17:51:25"
+            "time": "2017-01-27 18:44:47"
         },
         {
             "name": "neos/media",
@@ -3565,68 +3615,6 @@
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
             "time": "2017-04-12 14:07:15"
-        },
-        {
-            "name": "symfony/phpunit-bridge",
-            "version": "v3.2.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "00916603c524b8048906de460b7ea0dfa1651281"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/00916603c524b8048906de460b7ea0dfa1651281",
-                "reference": "00916603c524b8048906de460b7ea0dfa1651281",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "conflict": {
-                "phpunit/phpunit": ">=6.0"
-            },
-            "suggest": {
-                "ext-zip": "Zip support is required when using bin/simple-phpunit",
-                "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
-            },
-            "bin": [
-                "bin/simple-phpunit"
-            ],
-            "type": "symfony-bridge",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Bridge\\PhpUnit\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony PHPUnit Bridge",
-            "homepage": "https://symfony.com",
-            "time": "2017-04-12 14:13:17"
         },
         {
             "name": "symfony/polyfill-mbstring",

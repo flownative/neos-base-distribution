@@ -25,8 +25,8 @@
         "flowpack/neos-frontendlogin": "~3.0",
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
-        "neos/neos-ui": "1.0.*@beta",
-        "neos/neos-ui-compiled": "1.0.*@beta",
+        "neos/neos-ui": "dev-master",
+        "neos/neos-ui-compiled": "dev-master",
         "imagine/imagine": "~0.6.0"
     },
     "require-dev": {

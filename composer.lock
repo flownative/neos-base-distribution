@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "723eaa3f4b6cf49b06704601f809fdac",
-    "content-hash": "822b77d55dc81b6da74873e8c96e3698",
+    "hash": "f19545856c3c9ea0b045153c0a6b6053",
+    "content-hash": "b2d1da8cd62a92f0d0a0865f72a9bd9b",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2123,22 +2123,22 @@
         },
         {
             "name": "neos/neos-ui",
-            "version": "1.0.0-beta1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui.git",
-                "reference": "983cd892c737d9045ddfd811e08ca24ef65a516f"
+                "reference": "57b0655ef67c52168c3298869b1a2906a711eefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui/zipball/983cd892c737d9045ddfd811e08ca24ef65a516f",
-                "reference": "983cd892c737d9045ddfd811e08ca24ef65a516f",
+                "url": "https://api.github.com/repos/neos/neos-ui/zipball/57b0655ef67c52168c3298869b1a2906a711eefe",
+                "reference": "57b0655ef67c52168c3298869b1a2906a711eefe",
                 "shasum": ""
             },
             "require": {
                 "neos/flow": "*",
                 "neos/neos": "*",
-                "neos/neos-ui-compiled": "1.0.0-beta1"
+                "neos/neos-ui-compiled": "dev-master"
             },
             "provide": {
                 "flowpack/neos-frontendlogin": "*"
@@ -2229,20 +2229,20 @@
                 "GPL-3.0+"
             ],
             "description": "NEOS CMS UI rewritten in React",
-            "time": "2017-04-13 05:23:03"
+            "time": "2017-06-27 11:35:50"
         },
         {
             "name": "neos/neos-ui-compiled",
-            "version": "1.0.0-beta1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui-compiled.git",
-                "reference": "430c62997ea1ac8e6bcbf5cb9eb71c63b45beb50"
+                "reference": "42b039083b1948d9219d6ab2aec00ac3a65e2217"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/430c62997ea1ac8e6bcbf5cb9eb71c63b45beb50",
-                "reference": "430c62997ea1ac8e6bcbf5cb9eb71c63b45beb50",
+                "url": "https://api.github.com/repos/neos/neos-ui-compiled/zipball/42b039083b1948d9219d6ab2aec00ac3a65e2217",
+                "reference": "42b039083b1948d9219d6ab2aec00ac3a65e2217",
                 "shasum": ""
             },
             "require": {
@@ -2260,7 +2260,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2017-04-13 05:21:53"
+            "time": "2017-06-26 20:13:26"
         },
         {
             "name": "neos/nodetypes",
@@ -5414,13 +5414,13 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
-        "neos/neos-ui": 10,
-        "neos/neos-ui-compiled": 10,
+        "neos/neos-ui": 20,
+        "neos/neos-ui-compiled": 20,
         "neos/behat": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
